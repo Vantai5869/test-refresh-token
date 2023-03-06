@@ -28,7 +28,7 @@ const generateToken = user => {
     aud: 'api.example.com',
     iss: 'api.example.com',
   }, SECRET, {
-    expiresIn: '1h',
+    expiresIn: '3s',
     algorithm: 'HS256'
   })
  
